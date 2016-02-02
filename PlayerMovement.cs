@@ -32,14 +32,20 @@ public class PlayerMovement : MonoBehaviour
 		rigidbodyPlayer.MovePosition (rigidbodyPlayer.position + movement);
 
 		Vector3 pos = rigidbodyPlayer.position;
+
 		if (pos.x <= -width)
-			rigidbodyPlayer.MovePosition (new Vector3 (-width, pos.y, pos.z));
+			pos.x = -width;
+
 		if (pos.x >= width)
-			rigidbodyPlayer.MovePosition (new Vector3 (width, pos.y, pos.z));
+			pos.x = width;
+
 		if (pos.y <= -height)
-			rigidbodyPlayer.MovePosition (new Vector3 (pos.x, -height, pos.z));
+			pos.y = -height;
+
 		if (pos.y >= height)
-			rigidbodyPlayer.MovePosition (new Vector3 (pos.x, height, pos.z));
+			pos.y = height;
+
+		rigidbodyPlayer.MovePosition (pos);
 	}
 
 	void SetWindowDimensions ()
