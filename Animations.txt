@@ -1,0 +1,18 @@
+1. Download sprite sheets that you will use in your game.
+2. Open sprite sheet in Unity inspector.
+3. Change texture type from "Texture" to "Sprite (2D and UI)"
+4. Change Sprite Mode from "Single" to "Multiple"
+5. Open the Sprite Editor by clicking on the Sprite Editor button in the inspector.
+6. Click "Slice" and change the Type to "Grid".
+7. Enter in dimensions for each box (determing each image for the animation) in "Pixel Size"
+8. Click "Trim" and then "Apply" followed by closing the Sprite Editor window.
+9. The sprite sheet should now have a list of child images under it.
+10. Open the "Animation" window/tab
+11. Select all child images under the sprite sheet and drag into the Hierarchy window.
+12. It will prompt you to name your animation, choose a name.
+13. It will create an Animation and Animator Controller in your assets folder.
+14. Modify the Sample time in the Animation window to slow down or speed up your animation.
+15. Modify the Animator Controller and create transitions between different animations.
+
+16. You can create multiple animations from the same sprite sheet by repeating step 11, but with only certain images
+    pertaining to the animation you want.
