@@ -8,11 +8,10 @@
 8. Click "Trim" and then "Apply" followed by closing the Sprite Editor window.
 9. The sprite sheet should now have a list of child images under it.
 10. Open the "Animation" window/tab
-11. Select all child images under the sprite sheet and drag into the Hierarchy window.
-12. It will prompt you to name your animation, choose a name.
-13. It will create an Animation and Animator Controller in your assets folder.
-14. Modify the Sample time in the Animation window to slow down or speed up your animation.
-15. Modify the Animator Controller and create transitions between different animations.
 
-16. You can create multiple animations from the same sprite sheet by repeating step 11, but with only certain images
-    pertaining to the animation you want.
+**Repeat for each group of sprites you wish to animate**
+
+11. Create a new clip from the drop down menu (or it will prompt you)
+12. Drag the images you wish to animate into the window
+13. Change Sample time for slowing down or speeding up animation
+14. Animation should be saved
