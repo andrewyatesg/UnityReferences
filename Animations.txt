@@ -17,5 +17,8 @@
 14. Animation should be saved
 
 
-NOTE: In AnimatorController, make sure to uncheck "Can transition to self" for walking animations
-Also, uncheck ExitTime when transitioning to an idle animation
+NOTE: 
+In AnimatorController, make sure to uncheck "Can transition to self" for walking animations.
+Also, uncheck Has ExitTime when transitioning to an idle animation.
+Also, uncheck Fixed Duration on all transitions.
+Also, change Transition Duration (s) on all transitions to 0.
