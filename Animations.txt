@@ -15,3 +15,6 @@
 12. Drag the images you wish to animate into the window
 13. Change Sample time for slowing down or speeding up animation
 14. Animation should be saved
+
+
+NOTE: In AnimatorController, make sure to uncheck "Can transition to self" for walking animations
